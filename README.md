@@ -8,7 +8,7 @@ To access deployed version on your browser, click this link here [budget-react-t
 Run first `npm run create-deploy-branch`\
 Make sure to publish the just created branch. Publish it manually if not pushed automatically.\
 Select just created `gh-pages` branch on github pages\
-Run finally `npm run deploy`\
+Run finally `npm run deploy`
 
 In the project directory, you can run:
 
