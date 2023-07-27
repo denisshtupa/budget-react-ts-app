@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "------------------Removing node-modules------------------"
 rm -rf node_modules/
 
