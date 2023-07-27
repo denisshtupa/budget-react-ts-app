@@ -5,7 +5,6 @@ import { Balance } from './components/Balance';
 import { IncomeExp } from './components/IncomeExp';
 import { TransactionsList } from './components/TransactionsList';
 import { AddTransaction } from './components/AddTransaction';
-import './App.css';
 
 const App = () => {
   return (

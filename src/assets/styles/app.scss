@@ -34,8 +34,8 @@ h4 {
   text-align: center;
 }
 
-.inc-exp-container>div:first-of-type {
-  border-right: 1px solid #dedede;
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid $background-color;
 }
 
 .money {
@@ -45,11 +45,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: $positive-color;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: $negative-color;
 }
 
 label {
@@ -59,7 +59,7 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid #dedede;
+  border: 1px solid $background-color;
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -69,7 +69,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #68dc71;
+  background-color: $positive-color;
   box-shadow: var(--box-shadow);
   color: #373977;
   border: 0;
@@ -98,9 +98,9 @@ input[type='number'] {
 }
 
 .list li {
-  background-color: #fff;
+  background-color: $white;
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: $dark;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -109,19 +109,19 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 5px solid $positive-color;
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid $negative-color;
 }
 
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: $negative-color;
   border: 0;
-  color: #fff;
-  font-size: 20px;
+  color: $white;
+  font-size: $font-l;
   line-height: 20px;
   padding: 2px 5px;
   position: absolute;
@@ -146,8 +146,8 @@ input[type='number'] {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 24px;
-  color: #10dfc2;
+  font-size: $font-xl;
+  color: $positive-color;;
   padding: 5px;
   margin: 0 auto;
 }
